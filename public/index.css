@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#input{
+    height: 100px;
+    width: 400px;
+    background-color: aquamarine;
+}
+
+#output{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+}
+
+#output div{
+    background-color: chocolate;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#output div button{
+    background-color: crimson;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+}
